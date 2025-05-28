@@ -9,20 +9,21 @@ This project implements fundamental linear classification algorithms from scratc
 - svm.py – Support Vector Machine
 - softmax.py – Softmax Regression
 
-## Project Structure
-Linear_Classifiers_Rice_FashionMNIST/
-├── Linear_Classifiers_Rice_FashionMNIST.ipynb
-├── data_process.py
-├── kaggle_submission.py
-├── models/
-│   ├── logistic.py
-│   ├── perceptron.py
-│   ├── svm.py
-│   ├── softmax.py
-├── kaggle/
-│   ├── perceptron_submission_fashion.csv
-│   ├── svm_submission_fashion.csv
-│   ├── softmax_submission_fashion.csv
+## 📁 Project Structure
+
+Linear_Classifiers_Rice_FashionMNIST/  
+├── Linear_Classifiers_Rice_FashionMNIST.ipynb     # Main notebook  
+├── data_process.py                                # Dataset loading & preprocessing  
+├── kaggle_submission.py                           # Utility to create Kaggle submission files  
+├── models/                                        # All classifier implementations  
+│   ├── logistic.py  
+│   ├── perceptron.py  
+│   ├── svm.py  
+│   └── softmax.py  
+├── kaggle/                                        # Kaggle submission outputs  
+│   ├── perceptron_submission_fashion.csv  
+│   ├── svm_submission_fashion.csv  
+│   └── softmax_submission_fashion.csv  
 
 ## Datasets
 - **Rice Dataset**: Binary classification dataset with 0/1 labels.  
